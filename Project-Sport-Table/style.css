@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    color: #240281;
+}
+    
+
+h1.title {
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+}
+
+/*Table*/
+
+table {
+    border: 1px solid #DDDDDD;
+    border-collapse: collapse;
+}
+
+table tr td {
+    text-align: center;
+    width: 300px;
+}
+
+table tr td.position {
+    color: #036;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+table tr td.position2 {
+    color: #1398be;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+table tr td.position3 {
+    color: #de9800;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+table tr td.position4 {
+    color: #CCCCCC;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+table tr td.position5 {
+    color: #c91b04;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+table tr.div {
+    border-top: 2px solid #CCCCCC;
+}
+
+table tr td.name {
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+    text-align: left;   
+}
+
+table tr td.points {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+th {
+    font-size: 13px;
+    color: #999999;
+    font-weight: bold;
+    text-align: center;
+}
+
+th:nth-child(1){
+    border-left: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    font-size: 18px;
+}
+
+th:nth-child(2){
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+}
+
+th:nth-child(3){
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+th:nth-child(4){
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+}
+
+th:nth-child(5){
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+}
+
+th:nth-child(6){
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+}
+
+th:nth-child(7){
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+}
+
+th:nth-child(8){
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+}
+
+th:nth-child(9){
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+}
+
+th:nth-child(10){
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+}
+
+th:nth-child(11){
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+}
+
+
+td {
+    padding: 5px;
+    border: 1px solid #DDDDDD;
+    font-size: 14px;
+    
+}
+
+td:nth-child(1){
+    width: 50px;
+}
+
+td:nth-child(3){
+    background-color: #F7F7F7;
+    width: 120px;
+}
+
+td:nth-child(4){
+    width: 120px;
+}
+
+td:nth-child(5){
+    background-color: #F7F7F7;
+    width: 120px;
+}
+
+td:nth-child(6){
+    width: 120px;
+}
+
+td:nth-child(7){
+    background-color: #F7F7F7;
+    width: 120px;
+}
+
+td:nth-child(8){
+    width: 120px;
+}
+
+td:nth-child(9){
+    background-color: #F7F7F7;
+    width: 120px;
+}
+
+td:nth-child(10){
+    width: 120px;
+}
+
+td:nth-child(11){
+    background-color: #F7F7F7;
+    width: 160px;
+}
+
+/*Tabela de rodape*/
+
+table#tabela tfoot tr th.linha1 {
+
+    font-size: 10px;
+    color: #8f8f8f;
+    text-align: left; 
+
+}
+
+table#tabela tfoot tr th.linha2 {
+    font-size: 10px;
+    color: #555555;
+    text-align: left;
+    font-weight: bold; 
+}
+
+/* navbar */
+
+#navbar {
+    justify-content: center;
+    color: white;
+    border-radius: 25px;
+    border-bottom: 20px;
+    padding: 30px;
+}
+
+#navbar .navbar-conteiner {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 1px 0;
+    font-size: 25px;
+    color: rgba(216, 3, 21, 0.836);
+    font-weight: bold;
+    font-style: italic;
+}
+
+#navbar .navbar-conteiner .logo {
+    height: 90px;
+    width: auto;
+}
