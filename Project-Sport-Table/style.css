@@ -229,7 +229,7 @@ table#tabela tfoot tr th.linha1 {
     font-size: 10px;
     color: #8f8f8f;
     text-align: left; 
-
+    border-bottom: none;
 }
 
 table#tabela tfoot tr th.linha2 {
@@ -237,6 +237,8 @@ table#tabela tfoot tr th.linha2 {
     color: #555555;
     text-align: left;
     font-weight: bold; 
+    width: 40%;
+    border-top: none;
 }
 
 /* navbar */
